@@ -4,7 +4,7 @@ function Telefon(marka, cena, kolor) {
 	this.kolor = kolor;
 };
 Telefon.prototype.printInfo = function() {
-		console.log(“Marka telefonu to ” + this.marka + “, kolor to “ + this.kolor + “, a cena to “ + this.cena + “.”);
+		console.log('Marka telefonu to ' + this.marka + ', kolor to ' + this.kolor + ', a cena to ' + this.cena + '.');
 };
 var samsungGalaxyS6 = new Telefon('Samsung', 'czarny', 1861);
 var iPhone6S = new Telefon('Apple', 'srebrny', 2250);
